@@ -8,6 +8,7 @@ st.sidebar.title("Menú de Navegación")
 menu = st.sidebar.selectbox("Selecciona una opción", ["Consolidación Base", "Estado Gestor"])
 
 if menu == "Consolidación Base":
+    st.title("Consolidación Base")
     # Subir los archivos
     archivo1, archivo2 = subir_archivos()
 
